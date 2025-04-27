@@ -1,0 +1,8 @@
+**/bin/
+*.log
+*.o
+commons/so-commons-library/libcommons.a
+commons/so-commons-library/*.o
+commons/so-commons-library/build/
+*~
+*.swp
