@@ -1,4 +1,4 @@
-// kernel.c - Módulo Kernel inicial completo (corregido para Primer Checkpoint)
+// kernel.c - Módulo Kernel inicial completo (Primer Checkpoint)
 
 #include <stdio.h>
 #include <stdlib.h>
