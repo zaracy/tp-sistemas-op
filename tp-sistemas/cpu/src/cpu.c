@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
         return EXIT_FAILURE;
     }
 
-    // Handshake inicial (podrías mandar ID)
+    // Handshake inicial (podría mandar ID)
     send(dispatch_fd, cpu_id, strlen(cpu_id) + 1, 0);
     send(interrupt_fd, cpu_id, strlen(cpu_id) + 1, 0);
 
