@@ -1,4 +1,4 @@
-// kernel.c - Módulo Kernel inicial completo (Primer Checkpoint)
+// kernel.c - Módulo Kernel 1/5/25 (agrego comunicacion.h)
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,6 +14,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <netdb.h>
+#include <comunicacion.h>
 
 // Definiciones de estructuras
 
