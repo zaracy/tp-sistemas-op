@@ -1,4 +1,4 @@
-// kernel.c - Módulo Kernel 1/5/25 (agrego comunicacion.h)
+// kernel.c - Módulo Kernel 1/5/25 (agrego "comunicacion.h")
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,7 +14,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <netdb.h>
-#include <comunicacion.h>
+#include "comunicacion.h"                // " " significa que es un header propio de nuestro proyecto
 
 // Definiciones de estructuras
 
